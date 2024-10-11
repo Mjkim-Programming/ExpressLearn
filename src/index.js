@@ -16,3 +16,5 @@ const handleListen = () => {
 }
 
 app.listen(PORT, handleListen);
+
+module.exports = app;
